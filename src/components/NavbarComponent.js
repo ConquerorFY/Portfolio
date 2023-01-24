@@ -19,8 +19,10 @@ function NavbarComponent() {
                     </Link>
                 </div>
                 <div className="navbar-selection">
-                    <img src={education} alt="education" />
-                    <span>Education</span>
+                    <Link to="/education" className="link">
+                        <img src={education} alt="education" />
+                        <span>Education</span>
+                    </Link>
                 </div>
                 <div className="navbar-selection">
                     <img src={experience} alt="experience" />

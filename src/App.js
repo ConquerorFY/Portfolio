@@ -3,6 +3,7 @@ import NavbarComponent from './components/NavbarComponent';
 import './styles/App.css';
 import ProfilePage from './views/ProfilePage';
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
+import EducationPage from './views/EducationPage';
 
 const Layout = () => {
   return (
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
       {
         path: "/profile",
         element: <ProfilePage />
+      },
+      {
+        path: "/education",
+        element: <EducationPage />
       }
     ]
   }

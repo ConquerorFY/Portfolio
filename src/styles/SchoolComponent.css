@@ -1,0 +1,52 @@
+.school-component-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 60px;
+    margin-bottom: 100px;
+}
+
+.school-component-container>img {
+    width: 200px;
+}
+
+.school-component-container .separator {
+    width: 0;
+    border: 2px solid black;
+    border-radius: 50px;
+    align-self: stretch;
+    margin: 0 80px;
+}
+
+.school-component-container .school-content span {
+    display: block;
+}
+
+.school-component-container .school-content .academic-title {
+    font-weight: 900;
+    font-size: 2.3em;
+    margin-bottom: 10px;
+    
+}
+
+.school-component-container .school-content .school {
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.school-component-container .school-content .academic-date {
+    font-weight: 600;
+    font-style: italic;
+    font-size: 1.5em;
+}
+
+.school-component-container .school-content .academic-descriptions {
+    font-size: 1.5em;
+    font-weight: 400;
+    list-style-type: square;
+}
+
+.school-component-container .school-content .academic-descriptions li {
+    margin-bottom: 10px;
+}
