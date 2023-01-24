@@ -6,14 +6,17 @@ import skills from "../images/skills.png";
 import projects from "../images/projects.png";
 import lightMode from "../images/light-mode.png";
 import darkMode from "../images/dark-mode.png";
+import { Link } from "react-router-dom";
 
 function NavbarComponent() {
     return (
         <div className="navbar-component-container">
             <div className="navbar-selection-container">
                 <div className="navbar-selection">
-                    <img src={aboutMe} alt="about-me" />
-                    <span>About Me</span>
+                    <Link to="/profile" className="link">
+                        <img src={aboutMe} alt="about-me" />
+                        <span>About Me</span>
+                    </Link>
                 </div>
                 <div className="navbar-selection">
                     <img src={education} alt="education" />

@@ -27,9 +27,20 @@
     font-weight: bold;
 }
 
+.navbar-selection .link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
 .navbar-selection img {
     width: 40px;
     margin-right: 10px;
+}
+
+.navbar-selection span {
+    color: black;
+    text-decoration-line: none;
 }
 
 .light-dark-mode-container {
