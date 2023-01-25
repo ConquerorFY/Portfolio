@@ -9,7 +9,7 @@ function SchoolComponent(props) {
     }
     return (
         <div className="school-component-container">
-            <img src={props.education.image} alt="school-image" />
+            <img src={props.education.image} alt="school-img" />
             <div className="separator"></div>
             <div className="school-content">
                 <span className="academic-title">{props.education.title}</span>

@@ -4,6 +4,7 @@ import './styles/App.css';
 import ProfilePage from './views/ProfilePage';
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import EducationPage from './views/EducationPage';
+import ExperiencePage from './views/ExperiencePage';
 
 const Layout = () => {
   return (
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
       {
         path: "/education",
         element: <EducationPage />
+      },
+      {
+        path: "/experience",
+        element: <ExperiencePage />
       }
     ]
   }

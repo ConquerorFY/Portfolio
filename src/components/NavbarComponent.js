@@ -25,8 +25,10 @@ function NavbarComponent() {
                     </Link>
                 </div>
                 <div className="navbar-selection">
-                    <img src={experience} alt="experience" />
-                    <span>Experience</span>
+                    <Link to="/experience" className="link">
+                        <img src={experience} alt="experience" />
+                        <span>Experience</span>
+                    </Link>
                 </div>
                 <div className="navbar-selection">
                     <img src={skills} alt="skills" />

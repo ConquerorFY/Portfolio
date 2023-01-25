@@ -4,6 +4,7 @@ import chkl from "../images/chkl.png";
 import apu from "../images/apu.png";
 import SchoolComponent from "../components/SchoolComponent";
 import YearSliderComponent from "../components/YearSliderComponent";
+import PageHeaderComponent from "../components/PageHeaderComponent";
 
 function EducationPage() {
     const secondaryInfo = {
@@ -50,10 +51,7 @@ function EducationPage() {
 
     return (
         <div className="education-page-container">
-            <div className="education-page-title">
-                <img src={education} alt="education-page-image" />
-                <span>Education</span>
-            </div>
+            <PageHeaderComponent img={education} title="Education" />
             <YearSliderComponent />
             <div className="education-content-container">
                 <SchoolComponent education={secondaryInfo} key={secondaryInfo.id} />
