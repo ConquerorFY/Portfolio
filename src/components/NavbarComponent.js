@@ -35,8 +35,10 @@ function NavbarComponent() {
                     <span>Skills</span>
                 </div>
                 <div className="navbar-selection">
-                    <img src={projects} alt="projects" />
-                    <span>Projects</span>
+                    <Link to="/projects" className="link">
+                        <img src={projects} alt="projects" />
+                        <span>Projects</span>
+                    </Link>
                 </div>
             </div>
             <div className="light-dark-mode-container">
