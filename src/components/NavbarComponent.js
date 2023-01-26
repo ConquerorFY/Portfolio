@@ -31,8 +31,10 @@ function NavbarComponent() {
                     </Link>
                 </div>
                 <div className="navbar-selection">
-                    <img src={skills} alt="skills" />
-                    <span>Skills</span>
+                    <Link to="/skills" className="link">
+                        <img src={skills} alt="skills" />
+                        <span>Skills</span>
+                    </Link>
                 </div>
                 <div className="navbar-selection">
                     <Link to="/projects" className="link">
