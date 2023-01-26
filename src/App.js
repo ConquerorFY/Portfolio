@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import EducationPage from './views/EducationPage';
 import ExperiencePage from './views/ExperiencePage';
 import ProjectsPage from './views/ProjectsPage';
+import SkillsPage from './views/SkillsPage';
 
 const Layout = () => {
   return (
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
       {
         path: "/experience",
         element: <ExperiencePage />
+      },
+      {
+        path: "/skills",
+        element: <SkillsPage />
       },
       {
         path: "/projects",
