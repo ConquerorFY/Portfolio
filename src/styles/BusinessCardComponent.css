@@ -1,0 +1,76 @@
+.business-card-container {
+    background-color: rgb(235, 234, 234);
+    padding: 30px 50px;
+    border-radius: 8px;
+    display: flex;
+    margin-bottom: 100px;
+    box-shadow: 10px 10px 10px rgb(140, 140, 140);
+}
+
+.work-content-container {
+    margin-right: 30px;
+}
+
+.work-responsibility-container {
+    margin-bottom: 80px;
+    overflow: hidden;
+}
+
+.work-responsibility-container .work-header,
+.work-project-container .work-header {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.work-responsibility-container ul,
+.work-project-container ul {
+    font-size: 1.5em;
+}
+
+.work-responsibility-container ul li,
+.work-project-container ul li {
+    margin-bottom: 30px;
+}
+
+.work-position-container {
+    display: flex;
+    align-items: center;
+    background-color: rgb(197, 191, 191);
+    padding: 0 50px;
+    clip-path: polygon(0% 25%, 15% 25%, 15% 15%, 85% 15%, 85% 25%, 100% 25%, 100% 75%, 85% 75%, 85% 85%, 15% 85%, 15% 75%, 0% 75%);
+    width: 40%;
+}
+
+.work-position-container img {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+.work-position-container p {
+    margin: 0;
+}
+
+.work-position-container .work-position {
+    font-size: 2em;
+    font-weight: 900;
+    margin-top: 30px;
+}
+
+.work-position-container .company-name {
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.work-position-container .company-address {
+    font-size: 1.3em;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.work-position-container .work-duration {
+    font-style: italic;
+    font-weight: 500;
+    margin-top: 5px;
+}

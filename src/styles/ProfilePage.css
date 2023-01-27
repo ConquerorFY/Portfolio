@@ -1,0 +1,141 @@
+.profile-page-container {
+    margin: 20px 0;
+}
+
+.profile-top-container {
+    background-image: url("../images/profile-background.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    padding: 30px 0 0 0;
+}
+
+.profile-top-container img {
+    display: block;
+    width: 200px;
+    padding: 20px;
+    border: 5px solid black;
+    border-radius: 50%;
+    margin: auto;
+    position: relative;
+    top: 100px;
+}
+
+.profile-bottom-container .gender-nationality {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+
+.profile-bottom-container .gender-nationality .gender {
+    display: inline-block;
+    font-size: 2em;
+    margin-right: 30px;
+}
+
+.profile-bottom-container .gender-nationality .malaysian {
+    width: 100px;
+}
+
+.profile-bottom-container .name-container {
+    margin-top: 60px;
+    border-bottom: 3px solid black;
+    padding-bottom: 30px;
+}
+
+.profile-bottom-container .name-container .honorifics-container {
+    padding-left: calc(100% / 7);
+}
+
+.profile-bottom-container .name-container .speaker {
+    display: inline-block;
+    font-size: 2em;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.profile-bottom-container .name-container .honorifics {
+    font-style: italic;
+    font-size: 2.3em;
+}
+
+.profile-bottom-container .name-container .name {
+    display: block;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.profile-bottom-container .personal-statement-container {
+    display: flex;
+    align-items: center;
+    margin: 30px 0 0 0;
+}
+
+.profile-bottom-container .personal-statement-container .biography {
+    font-size: 3em;
+    margin-right: 20px;
+}
+
+.profile-bottom-container .personal-statement-container .personal-statement {
+    font-size: 1.4em;
+    margin: 0;
+}
+
+.profile-bottom-container .about-me-container {
+    margin: 60px 0 50px 0;
+}
+
+.profile-bottom-container .about-me-container img {
+    float: right;
+    width: 400px;
+}
+
+.profile-bottom-container .about-me-container .title {
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+.profile-bottom-container .about-me-container .content {
+    font-size: 1.4em;
+}
+
+.profile-bottom-container .resume-business-card-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+
+.profile-bottom-container .resume-business-card-container .resume-button,
+.profile-bottom-container .resume-business-card-container .business-card-button {
+    padding: 20px 30px;
+    font-size: 2.5em;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.profile-bottom-container .resume-business-card-container .resume-button {
+    background-color: gold;
+    color: darkgoldenrod;
+    box-shadow: 5px 5px 5px rgb(131, 96, 6);
+}
+
+.profile-bottom-container .resume-business-card-container .business-card-button {
+    background-color: greenyellow;
+    color: darkgreen;
+    box-shadow: 5px 5px 5px rgb(4, 90, 4);
+}
+
+.profile-bottom-container .resume-business-card-container .resume-button:hover {
+    box-shadow: 15px 15px 5px rgb(131, 96, 6);
+    font-size: 2.6em;
+    padding: 22px 32px;
+}
+
+.profile-bottom-container .resume-business-card-container .business-card-button:hover {
+    box-shadow: 15px 15px 5px rgb(4, 90, 4);
+    font-size: 2.6em;
+    padding: 22px 32px;
+}

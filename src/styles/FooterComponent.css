@@ -1,0 +1,36 @@
+.footer-component-container {
+    background-color: rgb(76, 75, 75);
+    padding: 30px 50px;
+    border-radius: 5px;
+}
+
+.footer-title {
+    color: white;
+    font-weight: bold;
+    font-size: 1.8em;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+.footer-contact-methods {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.footer-contact-methods img {
+    width: 60px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.footer-contact-methods img:hover {
+    transform: rotate(-10deg);
+}
+
+.footer-copyright {
+    color: white;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 0;
+}
